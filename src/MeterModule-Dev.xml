@@ -11,7 +11,7 @@
   <op:ETS
     OpenKnxId="0xAF"
     ApplicationNumber="0x05"
-    ApplicationVersion="10.12.0"
+    ApplicationVersion="10.13.0"
     ReplacesVersionsDownTo="3"
     ApplicationRevision="0"
     ProductName="Zählermodul"
@@ -52,7 +52,7 @@
     share="../lib/OFM-SML/src/SMLModule.share.xml"
     template="../lib/OFM-SML/src/SMLModule.templ.xml"
     NumChannels="3" KoOffset="500">
-    <op:verify File="../lib/OFM-SML/library.json" ModuleVersion="1.0" /> 
+    <op:verify File="../lib/OFM-SML/library.json" ModuleVersion="1.2" /> 
   </op:define>
 
   <op:define prefix="MBUS" ModuleType="22"

@@ -1,5 +1,9 @@
 # Changes
 
+## Unveröffentlicht
+
+- OFM-SML 1.2.0: Stromzähler mit OBIS-ASCII (IEC 62056-21, Push-Betrieb) wie der Logarex LK13BE werden unterstützt. Protokoll, Baudrate, Datenformat und Empfangs-Timeout sind pro SML-Kanal einstellbar, dazu kommt das Kommunikationsobjekt "Zähler empfängt". Ein vollständiger Download in der ETS ist nötig.
+
 ## 1.0.0
 
 *(seit 0.6.0, veröffentlicht am 4. Juli 2025)*
